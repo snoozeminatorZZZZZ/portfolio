@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# 💼 Saroj's AI-Enhanced Developer Portfolio
 
-## Available Scripts
+This is a feature-rich, visually stunning personal portfolio built using **React** and **Chakra UI**, designed to showcase your technical skills and projects with modern aesthetics and integrated smart features like:
 
-In the project directory, you can run:
+- ✅ Dark / Light Mode Toggle  
+- ✅ Responsive Design  
+- ✅ Resume Analyzer (AI-powered – coming soon)  
+- ✅ Chatbot limited to portfolio queries (coming soon)  
+- ✅ Scalable structure for easy feature additions  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🖼️ Preview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+_Add screenshot here later_  
+`public/preview.png`
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Project Structure
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+frontend/
+├── public/                     # Static assets and index.html
+├── src/
+│   ├── components/             # Reusable UI (ColorModeSwitcher, Navbar, etc.)
+│   ├── pages/                  # Route-based pages (Home, ResumeAnalyzer, Chatbot)
+│   ├── theme.js                # Chakra UI theme config (dark/light)
+│   ├── App.jsx                 # Main layout
+│   └── index.js                # React DOM root
+├── package.json
+└── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+````
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Feature            | Status       | Description                                                   |
+|-------------------|--------------|---------------------------------------------------------------|
+| 🌗 Dark/Light Mode | ✅ Complete   | Toggle button using Chakra's color mode system                |
+| 📄 Resume Analyzer | ⏳ Coming Soon | Upload a resume and get AI-powered suggestions for improvement |
+| 🤖 Chatbot         | ⏳ Coming Soon | AI bot answers questions only about your portfolio            |
+| 💬 Responsive UI   | ✅ Complete   | Chakra handles all breakpoints out of the box                 |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [React 18/19](https://react.dev/)
+- [Chakra UI](https://chakra-ui.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Emotion (CSS-in-JS)](https://emotion.sh/docs/introduction)
+- [React Router DOM](https://reactrouter.com/) *(for future navigation)*
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧑‍💻 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 1. Clone the repository
 
-### Code Splitting
+```bash
+git clone https://github.com/snoozeminatorZZZZZ/portfolio.git
+cd portfolio/frontend
+````
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Install dependencies
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 3. Start the development server
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> Your app will run on [http://localhost:3000](http://localhost:3000)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🧭 How to Use
 
-### Deployment
+* 🌗 Toggle between dark and light mode using the sun/moon icon
+* 🏠 Navigate between "Home", "Resume Analyzer", and "Chatbot" (to be added)
+* 📄 Upload your resume for automated feedback (coming soon)
+* 🤖 Ask your chatbot questions — answers restricted to portfolio content only (coming soon)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## ✅ To-Do Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [x] Chakra UI setup with color mode switcher
+* [x] Responsive layout and styling
+* [ ] Navigation bar with React Router
+* [ ] Resume Analyzer UI + backend integration
+* [ ] AI Chatbot with content restriction
+* [ ] Animations and interactive visuals using Framer Motion
+* [ ] Deployment (Vercel/Netlify)
+
+---
+
+## 📬 Contact
+
+* ✉️ Email: [sarojanandtripathy.sat@gmail.com](mailto:sarojanandtripathy.sat@gmail.com)
+* 💼 LinkedIn: [linkedin.com/in/saroj-anand-tripathy](https://linkedin.com/in/saroj-anand-tripathy)
+* 🧠 GitHub: [@snoozeminatorZZZZZ](https://github.com/snoozeminatorZZZZZ)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
+
+---
+
+## 🙋‍♂️ Want to Contribute?
+
+Pull requests are welcome! You can:
+
+* Improve animations
+* Add sections like Blogs, Testimonials, etc.
+* Enhance AI analysis logic
+
+```
+
+---
+
+Let me know when you’re ready to move to the **next step**:  
+Shall we build the **responsive navbar with routing** or start wiring up the **Resume Analyzer UI**?
+```

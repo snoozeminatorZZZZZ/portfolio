@@ -129,9 +129,3 @@ Pull requests are welcome! You can:
 * Enhance AI analysis logic
 
 ```
-
----
-
-Let me know when you’re ready to move to the **next step**:  
-Shall we build the **responsive navbar with routing** or start wiring up the **Resume Analyzer UI**?
-```

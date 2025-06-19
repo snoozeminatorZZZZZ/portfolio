@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 💼 Saroj's AI-Enhanced Developer Portfolio
 
@@ -22,8 +20,16 @@ _Add screenshot here later_
 
 ## 📁 Project Structure
 
-```
+````
+You're absolutely right — in some markdown renderers (like GitHub or certain editors), **code block indentation with `│`, `├──`, and `└──`** often loses its formatting if not properly wrapped in a fenced code block.
 
+---
+
+### ✅ Correctly Rendered File Structure in `README.md`
+
+Make sure you wrap it **inside triple backticks with language tag `text`** like this:
+
+<pre><code class="language-text">
 frontend/
 ├── public/                     # Static assets and index.html
 ├── src/
@@ -34,6 +40,10 @@ frontend/
 │   └── index.js                # React DOM root
 ├── package.json
 └── README.md
+
+</code></pre>
+
+---
 
 ````
 
@@ -128,4 +138,3 @@ Pull requests are welcome! You can:
 * Add sections like Blogs, Testimonials, etc.
 * Enhance AI analysis logic
 
-```

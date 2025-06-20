@@ -108,6 +108,7 @@ export default function HomePage() {
                     words={[
                     "Hi, I'm Saroj Anand Tripathy — passionate about AI, backend systems, and full-stack architecture.",
                     "3+ years in Python, Java, AWS, and AI-powered systems.",
+                    "Currently Consultant at Genpact | Ex-Samsung R&D | ML & Cloud Enthusiast.",
                     ]}
                     loop={Infinity}
                     cursor
